@@ -5,7 +5,7 @@ import java.util.Arrays;
 /*
 check if two strings are permutations of each other
  */
-public class Part1 {
+public class StringPermutations {
 
     public static Boolean isPermutation(String str1, String str2) {
         if (str1.length() != str2.length()) {

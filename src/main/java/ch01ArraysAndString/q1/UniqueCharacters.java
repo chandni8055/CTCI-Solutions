@@ -7,7 +7,7 @@ import java.util.Set;
 /*
 Implement an algorithm to determine if a string has all unique characters.
  */
-public class Part1 {
+public class UniqueCharacters {
 
     public static Boolean hasUniqueCharatersUnoptimized(String str) {
 
