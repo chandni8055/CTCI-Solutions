@@ -11,11 +11,11 @@ public class UniqueCharacters {
 
     public static Boolean hasUniqueCharatersUnoptimized(String str) {
 
-        Set<Character> uniqueCharecters = new HashSet<>();
+        Set<Character> uniqueCharacters = new HashSet<>();
         for (Character ch : str.toCharArray()) {
-            uniqueCharecters.add(ch);
+            uniqueCharacters.add(ch);
         }
-        return str.length() == uniqueCharecters.size();
+        return str.length() == uniqueCharacters.size();
     }
 
     public static boolean isUniqueCharsOptimized(String str) {
