@@ -13,4 +13,13 @@ class OneAwayTest {
         assertTrue(OneAway.areOneEditAway("pale", "bale"));
         assertFalse(OneAway.areOneEditAway("pale", "bake"));
     }
+
+    @Test
+    void isOneEditAway() {
+        assertTrue(OneAway.isOneEditAway("pale", "ple"));
+        assertTrue(OneAway.isOneEditAway("pales", "pale"));
+        assertTrue(OneAway.isOneEditAway("pale", "bale"));
+        assertFalse(OneAway.isOneEditAway("pale", "bake"));
+
+    }
 }
